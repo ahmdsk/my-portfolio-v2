@@ -55,11 +55,13 @@ export const Project = ({ project, index }: TProps) => {
           className="rounded transition-transform hover:scale-105"
         />
       </Link>
-      <h3 className="mt-3 text-xl font-medium">{title}</h3>
-      <p className="text-muted-foreground mb-2 mt-1">{description}</p>
-      <div className="flex flex-wrap gap-2">
+      <h3 className="font-heading mt-3 text-lg font-medium">{title}</h3>
+      <p className="text-muted-foreground font-paragraph mb-2 mt-1">
+        {description}
+      </p>
+      <div className="flex flex-wrap gap-2 font-mono">
         {technologies.map((tech) => (
-          <span className="rounded-full border px-3 py-1 text-sm" key={tech}>
+          <span className="rounded-full border px-3 py-1 text-xs" key={tech}>
             {tech}
           </span>
         ))}

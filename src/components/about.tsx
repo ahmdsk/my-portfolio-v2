@@ -19,7 +19,7 @@ export const About = () => {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading heading="About Me" />
-      <div className="-mt-5 max-w-2xl text-center leading-7">
+      <div className="font-paragraph -mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
           I&apos;m a Frontend & Mobile Developer with 3+ years of experience
           building scalable, high-performance applications across web and mobile

@@ -29,7 +29,7 @@ export const Header = () => {
       className="sm:bg-background/80 sticky top-5 z-20 my-5 flex items-center gap-2 sm:top-10 sm:my-10 sm:rounded-full sm:border sm:px-2 sm:py-3 sm:backdrop-blur-sm"
     >
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogTrigger asChild>
+        <DialogTrigger asChild className="font-paragraph">
           <Button
             variant="outline"
             size="lg"
@@ -38,7 +38,7 @@ export const Header = () => {
             Menu <Icons.chevronDown className="ml-2 size-4" />
           </Button>
         </DialogTrigger>
-        <DialogContent className="text-muted-foreground max-h-screen w-[90%] rounded">
+        <DialogContent className="text-muted-foreground font-paragraph max-h-screen w-[90%] rounded">
           <DialogHeader>
             <DialogTitle className="text-md self-start font-medium">
               Navigation
@@ -62,7 +62,7 @@ export const Header = () => {
         </DialogContent>
       </Dialog>
       <ThemeToggle className="bg-background/80 backdrop-blur-sm sm:hidden" />
-      <nav className="text-muted-foreground hidden text-sm sm:block">
+      <nav className="text-muted-foreground font-paragraph hidden text-sm sm:block">
         <ul className="flex gap-5">
           {links.map(({ name, hash }) => (
             <li key={name}>

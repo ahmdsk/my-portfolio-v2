@@ -50,21 +50,25 @@ export const Experience = () => {
                   <div className="flex size-9 shrink-0 items-center justify-center rounded-full border">
                     <Icons.building className="size-5" />
                   </div>
-                  <span className="text-lg font-semibold">{company}</span>
+                  <span className="text-md font-mono font-semibold">
+                    {company}
+                  </span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-medium">{title}</h3>
+                  <h3 className="font-heading text-md font-medium">{title}</h3>
                   <div className="mt-1 flex items-center gap-2 text-sm">
                     <Icons.calendar className="size-4" />
                     <span>{period}</span>
                   </div>
                 </div>
-                <p className="text-muted-foreground">{description}</p>
+                <p className="text-muted-foreground font-paragraph text-sm">
+                  {description}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {technologies.map((tech) => (
                     <div
                       key={tech}
-                      className="rounded-full border px-3 py-1 text-sm "
+                      className="rounded-full border px-3 py-1 font-mono text-xs"
                     >
                       {tech}
                     </div>

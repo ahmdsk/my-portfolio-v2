@@ -52,7 +52,7 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="text-muted-foreground max-w-xl"
+        className="text-muted-foreground font-paragraph max-w-xl"
       >
         A fullstack & mobile apps developer based in Indonesian. I&#39;m
         passionate about building modern web apps using several tech stack.
@@ -71,13 +71,17 @@ export const Intro = () => {
           </Link>
         </Button>
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf" download>
+          <a
+            href="https://www.canva.com/design/DAGxDwBqelg/2ulkjPlnfkjUf05xPOZWaA/edit?utm_content=DAGxDwBqelg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            download
+            target="_blank"
+          >
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/ahmdsk"
             aria-label="Linkedin"
             target="_blank"
           >
@@ -86,7 +90,7 @@ export const Intro = () => {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Skolaczk"
+            href="https://github.com/ahmdsk"
             aria-label="Github"
             target="_blank"
           >
