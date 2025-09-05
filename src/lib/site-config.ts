@@ -1,13 +1,15 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
-  title: 'Ahmad Shaleh Kurniawan | Front-end developer',
+  title: 'Ahmad Shaleh Kurniawan | Full-stack developer',
   description:
-    "Hello, I'm Michał. I am front-end developer from Poland. I enjoy building sites and apps. My focus is React (Next.js).",
+    "Hello, I'm Ahmad Shaleh Kurniawan. I am a full-stack developer from Indonesia. I love building web applications with great user experiences.",
   keywords: [
     'Ahmad Shaleh Kurniawan',
-    'Front-end developer',
-    'Poland',
+    'Full-stack developer',
+    'Web Developer',
+    'Flutter Developer',
+    'Indonesia',
     'React',
     'Next.js',
     'Web development',
@@ -25,6 +27,7 @@ export const siteConfig = {
     'Code',
     'Programming',
     'Tech enthusiast',
+    'Software Engineer',
   ],
   url: env.SITE_URL || 'https://example.com',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
