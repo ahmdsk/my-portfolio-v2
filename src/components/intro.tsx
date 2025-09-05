@@ -42,7 +42,7 @@ export const Intro = () => {
       >
         Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Fullstack
+          Full-Stack
         </span>{' '}
         developer passionate about creating web & mobile apps.
       </motion.h1>
@@ -54,7 +54,7 @@ export const Intro = () => {
         }}
         className="text-muted-foreground font-paragraph max-w-xl"
       >
-        A fullstack & mobile apps developer based in Indonesian. I&#39;m
+        A full-stack & mobile apps developer based in Indonesian. I&#39;m
         passionate about building modern web apps using several tech stack.
       </motion.p>
       <motion.div
