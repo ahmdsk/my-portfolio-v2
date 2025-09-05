@@ -42,9 +42,9 @@ export const Intro = () => {
       >
         Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
+          Fullstack
         </span>{' '}
-        developer creating modern web apps.
+        developer passionate about creating web & mobile apps.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -54,8 +54,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A frontend developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        A fullstack & mobile apps developer based in Indonesian. I&#39;m
+        passionate about building modern web apps using several tech stack.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
-import { buttonVariants } from '@/components/button';
 import { Icons } from '@/components/icons';
-import { cn } from '@/lib/utils';
 
 export const links = [
   {
@@ -56,53 +52,83 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'Freelance Web Developer',
+    company: 'UKK LLC, Freelance, Remote (USA)',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+      'As a Freelance Web Developer, I have been responsible for developing and maintaining web and mobile applications using various technology stacks. My role involves collaborating with clients to understand their requirements, designing scalable solutions, and implementing features that enhance user experience.',
+    period: 'Sep 2025 – Present',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Supabase',
+      'PostgreSQL',
+      'Git',
+    ],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    title: 'Mobile Developer (Flutter)',
+    company:
+      'PT Langgeng Sejahtera Kreasi Komputasi, Remote (Bandung, Indonesia)',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
+      'During my role as a Mobile Developer, I develop and maintain Flutter-based mobile applications with a focus on performance, scalability, and API integration. I’ve built cross-platform apps, integrated backend APIs, and implemented scalable architectures.',
+    period: 'Aug 2025 – Present',
+    technologies: ['Flutter', 'Dart', 'RESTful APIs', 'Git', 'Figma'],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Full Stack Developer',
+    company: 'Universitas Bandar Lampung, Fulltime (Bandar Lampung, Indonesia)',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
+      'As a Full Stack Developer, I designed and developed an academic management system using Node.js, Hono, Next.js, Quasar, and Vue.js. My work included building secure backend services, responsive UIs, and an automated online examination system.',
+    period: 'Feb 2025 – Aug 2025',
+    technologies: ['Node.js', 'Hono', 'Next.js', 'Quasar', 'Vue.js'],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
-    description: (
-      <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
-        build{' '}
-        <Link
-          className={cn(
-            buttonVariants({ variant: 'link' }),
-            'm-0 h-fit p-0 text-base'
-          )}
-          href="https://geoscan-app.com"
-          target="_blank"
-        >
-          geoscan-app.com
-        </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
-      </>
-    ),
-    period: '2024 - present',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+    title: 'Full Stack Web Developer',
+    company:
+      'PT Inovasi Global Sejahtera, Fulltime (Bandar Lampung, Indonesia)',
+    description:
+      'During my time as a Full Stack Web Developer, I developed an education platform with Laravel, Vue.js, React.js, and PostgreSQL. I contributed to backend architecture, online payment integration, and performance optimization for thousands of users.',
+    period: 'Mar 2022 – Feb 2025',
+    technologies: ['Laravel', 'Vue.js', 'React.js', 'PostgreSQL'],
+  },
+  {
+    title: 'Freelance Full Stack Web & Flutter Developer',
+    company: 'Gandasari Group, Freelance (Jakarta, Indonesia)',
+    description:
+      'As a Freelance Full Stack Web & Flutter Developer, I created a vehicle repair and dump truck management app using Laravel, Flutter, PostgreSQL, and Firebase Cloud Messaging. I implemented role-based modules, mobile scanning verification, and real-time notifications to improve logistics operations.',
+    period: 'Feb 2024 – Nov 2024',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Laravel',
+      'PostgreSQL',
+      'Firebase',
+      'Figma',
+      'Git',
+    ],
+  },
+  {
+    // Freelance Web & Mobile Developer (using several stacks) from Sep 2022 - Present
+    title: 'Freelance Web & Mobile Developer',
+    company: 'Self-Employed, Freelance (Remote)',
+    description:
+      'As a Freelance Web & Mobile Developer, I have worked on various projects using different technology stacks including Next.js, Adonis.js, Express.js, React.js, Vue.js, Flutter, and Laravel. My work involves building responsive web applications and mobile apps, integrating APIs, and ensuring optimal performance across platforms.',
+    period: 'Sep 2022 – Present',
+    technologies: [
+      'Next.js',
+      'Adonis.js',
+      'Express.js',
+      'React.js',
+      'Vue.js',
+      'Flutter',
+      'Laravel',
+      'TypeScript',
+      'Dart',
+      'Tailwind CSS',
+      'PostgreSQL',
+      'Git',
+    ],
   },
 ] as const;
 

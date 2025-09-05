@@ -21,21 +21,20 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+          I&apos;m a Frontend & Mobile Developer with 3+ years of experience
+          building scalable, high-performance applications across web and mobile
+          platforms. My core stack includes React, Next.js, TypeScript, and
+          Tailwind CSS, with additional expertise in Nest.js, Prisma, Node.js
+          (Hono), Vue.js, Quasar, Laravel, Flutter, PostgreSQL, and Firebase.
+          I&apos;ve developed academic management systems, education platforms,
+          and logistics apps—focusing on responsive UI, API integration, and
+          maintainable architecture. I&apos;m passionate about problem-solving
+          and always open to opportunities where I can contribute, learn, and
+          grow.
         </p>
         <p>
-          I&apos;m open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don&apos;t hesitate to contact me.
+          Open to opportunities where I can contribute, learn, and grow. Feel
+          free to reach out if my skills and experience match your needs.
         </p>
       </div>
       <Skills />
